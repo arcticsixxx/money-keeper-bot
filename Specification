@@ -1,0 +1,16 @@
+    MoneyKeeper Telegram Bot
+
+v 0.1
+
+    SHORT DESCRIPTION
+
+Main goal of this bot is show you how and where you spend on your money. It could be useful when you need to
+stay in fixed budget. 
+
+
+    HOW IT'S WORKING
+
+This bot divide all your spending on two categories: permanent and temporary(this spendings we should reduce).
+You need to set the fixed amount of money on month(it's not fixed spendings). So when we will input our
+spends, bot will tell us that we went over budget or not. 
+
