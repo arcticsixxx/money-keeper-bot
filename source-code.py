@@ -11,7 +11,7 @@ from db import init_db
 from db import add_message
 from db import fetchall
 
-API_TOKEN = '1769271158:AAHg0Muh0hJEOGrOSQjRd-3mB5dpKrGheNs'
+API_TOKEN = 'BLYYYAAAAATTTTTT'
 
 logging.basicConfig(level = logging.INFO)
 bot = Bot(token = API_TOKEN)
