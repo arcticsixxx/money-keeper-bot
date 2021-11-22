@@ -11,7 +11,7 @@ from db import init_db
 from db import add_message
 from db import fetchall
 
-API_TOKEN = 'BLYYYAAAAATTTTTT'
+API_TOKEN = 'API_TOKEN'
 
 logging.basicConfig(level = logging.INFO)
 bot = Bot(token = API_TOKEN)
@@ -19,8 +19,6 @@ dp = Dispatcher(bot)
 
 sumator = 0
 total_list = [] 
-''' Сделан спешл фор функции total_sum 
-    ЫЫЫ ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ ДЛЯ УБЛЮДКОВ'''
 
 def auth(func):
     async def wrapper(message):
